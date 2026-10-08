@@ -46,3 +46,6 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Oracle JDK (tidak perlu di-commit)
+lib/oracleJdk-27/

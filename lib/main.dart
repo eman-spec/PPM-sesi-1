@@ -171,6 +171,42 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                           ),
                         ),
+                        const SizedBox(height: 10),
+
+                        // Badge Rating Bintang 5
+                        Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
+                          decoration: BoxDecoration(
+                            color: const Color(0xFFFEF3C7),
+                            borderRadius: BorderRadius.circular(20),
+                            border: Border.all(color: const Color(0xFFFDE68A)),
+                          ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              ...List.generate(
+                                5,
+                                (index) => const Padding(
+                                  padding: EdgeInsets.symmetric(horizontal: 1.5),
+                                  child: Icon(
+                                    Icons.star_rounded,
+                                    size: 18,
+                                    color: Color(0xFFF59E0B),
+                                  ),
+                                ),
+                              ),
+                              const SizedBox(width: 6),
+                              const Text(
+                                '5.0',
+                                style: TextStyle(
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.bold,
+                                  color: Color(0xFFB45309),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
                         const SizedBox(height: 16),
                         const Divider(height: 1, color: Color(0xFFE2E8F0)),
                         const SizedBox(height: 14),
@@ -399,4 +435,5 @@ class _MyHomePageState extends State<MyHomePage> {
       ],
     );
   }
+
 }
