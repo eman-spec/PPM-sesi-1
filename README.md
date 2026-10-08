@@ -1,17 +1,29 @@
-# ppm_sesi1
+# PPM Sesi 1 - Flutter App
 
-A new Flutter project.
+**Nama:** Soleeman Firdaus Ode  
+**NIM:** 20240040253  
+**Prodi / Kelas:** Teknik Informatika / TI24G
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Deskripsi
 
-A few resources to get you started if this is your first Flutter project:
+Aplikasi Flutter untuk tugas PPM Sesi 1. Fitur yang diimplementasikan:
+- Profil Mahasiswa (nama, NIM, prodi/kelas, status, rating)
+- Counter dengan validasi angka genap/ganjil
+- Increment, Decrement, dan Reset counter
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshot Hasil
+
+![Screenshot Aplikasi](screenshot.png)
+
+---
+
+## Cara Menjalankan
+
+```bash
+flutter pub get
+flutter run
+```
